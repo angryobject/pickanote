@@ -1,0 +1,15 @@
+{
+  "name": "pickanote",
+  "version": "0.0.0",
+  "description": "Random notes generator for guitar players",
+  "main": "client/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.5.6",
+    "q": "^1.0.1",
+    "run-sequence": "^0.3.6"
+  },
+  "scripts": {},
+  "author": "Max Shishkin @angryobject",
+  "private": true
+}

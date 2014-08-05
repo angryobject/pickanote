@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Max Shishkin -- Developer -- https://twitter.com/angryobject
+
+# THANKS
+
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css
+    JavaScript
+

@@ -1,0 +1,13 @@
+*.swp
+.DS_Store*
+Thumbs.db
+
+ignore_me
+node_modules
+client/bower_components
+.sass-cache
+.tmp
+dist
+
+
+

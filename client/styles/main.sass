@@ -1,0 +1,137 @@
+@charset "UTF-8"
+@import "../bower_components/normalize-css/normalize.css"
+
+// Raw html elements
+
+html
+    font-size: 1em
+
+// Components
+
+.button
+    display: inline-block
+    border: none
+    outline: none
+
+.button--action
+    width: 6em
+    height: 6em
+    font-size: 3em
+    background: #fff
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+    &:active
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.2) inset
+
+.switch
+    > .switch-label
+        display: inline-block
+        vertical-align: middle
+        margin-right: 1em
+
+    > .switch-toggle
+        display: inline-block
+        width: 4em
+        height: 2em
+        vertical-align: middle
+        white-space: nowrap
+        overflow: hidden
+        border: 1px solid lightgrey
+        border-radius: 2px
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset
+        cursor: pointer
+
+        &:before, &:after
+            display: inline-block
+            width: 100%
+            height: 100%
+            line-height: 2em
+            text-align: center
+
+        &:before
+            content: "ON"
+            margin-left: -100%
+
+        &:after
+            content: "OFF"
+
+    .switch-toggle + .switch-label
+        margin-left: 1em
+        margin-right: 0
+
+    > input[type="checkbox"]
+        display: none
+
+        &:checked + .switch-toggle:before
+            margin-left: 0
+
+.fretboard
+    display: inline-block
+
+.fretboard-row
+    display: table
+    position: relative
+    margin: 5px 0
+    &:after
+        content: ""
+        height: 1px
+        position: absolute
+        left: 0
+        right: 0
+        bottom: -3px
+        background: #ccc
+
+.fretboard-item
+    display: inline-block
+    width: 1.6em
+    height: 1.5em
+    line-height: 1.5em
+    text-align: center
+    vertical-align: middle
+    border-right: 1px solid #ccc
+
+.fretboard-item--active:before
+    content: "●"
+
+// Layout
+
+.panelPickNote
+    margin: 3em 0 4em
+    text-align: center
+    .note
+        font-size: 1.9em
+
+.panelSettings
+    width: 16em
+    margin-bottom: 3em
+    font-size: 1.2em
+    text-align: right
+
+    // some hardcore alignment fix
+    position: relative
+    left: -0.4em
+
+    > .switch
+        margin-bottom: 1em
+        display: block
+
+.panelGuitar
+    margin-bottom: 3em
+    text-align: center
+
+// Utilits
+
+.u-middle
+    display: block
+
+    &:after
+        content: ""
+        display: inline-block
+        height: 100%
+        vertical-align: middle
+
+.u-toCenter
+    margin-left: auto
+    margin-right: auto
+
+.u-dn
+    display: none
