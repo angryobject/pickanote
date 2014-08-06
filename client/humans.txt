@@ -3,14 +3,14 @@
 
 # TEAM
 
-    Max Shishkin -- Developer -- https://twitter.com/angryobject
+    Max Shishkin -- Developer -- @angryobject
 
 # THANKS
 
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, JavaScript
     Normalize.css
-    JavaScript
+    FastClick
 
