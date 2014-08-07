@@ -9,7 +9,7 @@ var defaults = {
     doubleAlterations: false,
     octaves: false,
                         //0    //1    //2   //3   //4   //5   //6   //7    //8
-    octavesEnabled: [false, false, true, true, true, true, true, false, false] // standard guitar range
+    octavesEnabled: [false, false, true, true, true, true, false, false, false] // standard guitar range
 };
 
 var proto = {

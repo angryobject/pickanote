@@ -1,13 +1,13 @@
 'use strict';
 
 var notes = {
-    'A': 0,
-    'B': 2,
-    'C': 3,
-    'D': 5,
-    'E': 7,
-    'F': 8,
-    'G': 10
+    'C': 0,
+    'D': 2,
+    'E': 4,
+    'F': 5,
+    'G': 7,
+    'A': 9,
+    'B': 11
 };
 
 var alterations = {
@@ -41,7 +41,7 @@ function noteToNumber(aNote) {
     i = notes[aNote.base];
 
     if (aNote.octave) {
-        i += 12 * (aNote.octave - 1);
+        i += 12 * aNote.octave;
     }
 
     if(aNote.alteration) {
