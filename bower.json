@@ -2,7 +2,8 @@
   "name": "pickanote",
   "private": true,
   "dependencies": {
-    "normalize-css": "~3.0.1"
+    "normalize-css": "~3.0.1",
+    "google-fastbutton": "~1.0.1"
   },
   "devDependencies": {}
 }

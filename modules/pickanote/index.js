@@ -1,3 +1,4 @@
+/*global FastButton*/
 'use strict';
 
 require('./shim');
@@ -15,7 +16,7 @@ function init() {
 }
 
 function addListeners() {
-    pickButton.addEventListener('click', newNote, false);
+    new FastButton(pickButton, newNote);
     octavesSwitch.addEventListener('change', onOctavesSwitchChange, false);
     fretboardSwitch.addEventListener('change', onFretboardSwitchChange, false);
 }
