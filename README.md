@@ -1,1 +1,1 @@
-Random notes generator. Made to practice memorising notes on the guitar fretboard and to try wrapping a sample webapp into a native app.
+Random notes generator. Made to practice memorising notes on the guitar fretboard and to try wrapping a sample webapp into a native app (and [publish it](https://play.google.com/store/apps/details?id=angryobject.pickanote), wtf).
